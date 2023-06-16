@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 900;
+    width: 261px;
+    letter-spacing: 0.040em;
+    border: 2px solid #2f2e2f;
+    text-align: center;
+    text-transform: capitalize;
+    /* display: inline-block; */
+    padding: 7px 16px;
+    box-shadow: 0px 0px 20px rgba(194, 191, 191, 0.5);
+}
+
+p{
+    color: rgb(54, 53, 53);
+}
+
+.hover {
+    transition: 0.2s ease;
+}
+
+.hover:hover {
+    transform: scale(1.05);
+}
+
+.object-fit-center {
+    object-fit: cover;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 20px 0;
+    /* box-shadow: 0px 10px 30px rgba(0,0,0,0.1); */
+}
+.navbar .navbar-collapse .navbar-nav .nav-item{
+    margin: 0 10px;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.navbar .logo img{
+    width: 70px;
+}
+.navbar-toggler{
+    border-color: black;
+    background-color: white;
+}
+.bg-black{
+    background: linear-gradient(to right, #000000, #400C09);
+}
+/* .bg-black .navbar-toggler-icon{
+    background-image: url(../assets/menu.png);
+    border: white;
+} */
+/* .navbar-dark .navbar-toggler-icon {
+    background-image: url(../assets/menu.png);
+    border: white;
+} */
+.nav-dark{
+    background: linear-gradient(to right, #000000, #400C09);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.5s ease-in-out;
+}
+
+#navbarNav ul li{
+    transition: all 0.4s;
+}
+#navbarNav ul li a:hover{
+    color: rgb(237, 122, 16);
+}
+
+/* .loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 999999;
+    overflow-y: hidden;
+} */
+/* .loader h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Syne Mono', monospace;
+} */
+/* .loader img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
